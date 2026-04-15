@@ -504,7 +504,7 @@
       const result = localStorage.getItem("mbtiResult");
       const container = document.getElementById("recommendationContent");
       document.getElementById("displayType").innerText = result;
-      const API_BASE = "http://localhost:5000";
+      const API_BASE = "https://knowthyself-ce-backend.onrender.com";
       if (!result) {
         container.innerHTML =
           '<p style="text-align:center; color: var(--text-main);">No results found. Please retake the questionnaire.</p>';
